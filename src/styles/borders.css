@@ -1,0 +1,17 @@
+/* Scrapbook — Borders & radius
+   The 2.5px ink border is THE signature of Scrapbook. It appears on every contained element.
+   No box-shadows, ever — borders replace shadows. Hard corners everywhere except tag pills. */
+:root {
+  --border-ink:     2.5px solid var(--color-ink);  /* Default — cards, buttons, components */
+  --border-bold:    4px solid var(--color-ink);    /* Emphasis frames, hero containers */
+  --border-thin:    1px solid var(--color-ink);    /* Inner dividers, table rules */
+  --border-dashed:  2px dashed var(--color-ink);   /* Draft / placeholder containers */
+
+  --border-w-ink:   2.5px;
+  --border-w-bold:  4px;
+  --border-w-thin:  1px;
+
+  /* Radius — hard corners are the rule. The pill is the single exception. */
+  --radius-none:    0;
+  --radius-pill:    20px;
+}

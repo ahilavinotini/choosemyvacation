@@ -1,0 +1,16 @@
+/* Scrapbook — Spacing
+   8px-based rhythm. Generous breathing room between sections; tight inside components. */
+:root {
+  --space-1:  4px;   /* Micro — icon gaps, inline nudges */
+  --space-2:  8px;   /* Tight — label-to-element, badge padding */
+  --space-3:  12px;  /* Component internal gaps */
+  --space-4:  16px;  /* Default padding inside cards */
+  --space-5:  24px;  /* Component-to-component spacing */
+  --space-6:  32px;  /* Section internal breathing room */
+  --space-7:  48px;  /* Between major sections */
+  --space-8:  64px;  /* Page-level vertical rhythm */
+  --space-9:  96px;  /* Hero section padding */
+
+  /* Card / component internal default */
+  --pad-card: var(--space-4);
+}

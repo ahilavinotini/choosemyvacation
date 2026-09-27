@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/components/header.tsx","./src/components/intro.tsx","./src/components/quiz.tsx","./src/components/result.tsx","./src/components/ds/button.tsx","./src/components/ds/registrationmark.tsx","./src/components/ds/tag.tsx","./src/data/quiz.ts","./src/lib/scoring.test.ts","./src/lib/scoring.ts","./vite.config.ts"],"version":"5.6.3"}

@@ -1,0 +1,34 @@
+/* Scrapbook — Color
+   Bold, handcrafted, letterpress-inspired. Ink on cream, graphic accents used with restraint. */
+:root {
+  /* ---- Palette (base values) ---- */
+  --color-primary:      #7B5CF5; /* Electric Violet — primary actions, links, identity */
+  --color-primary-dark: #5A3DD4; /* Violet hover/pressed */
+  --color-accent-red:   #FF4B6E; /* Radical Red — hero moments, one per page */
+  --color-accent-tan:   #FF8C42; /* Tangerine Crush — warm supporting accent */
+  --color-accent-yel:   #F5FF4B; /* Voltage Yellow — CTAs, highlights, emphasis */
+  --color-accent-mnt:   #4BFFC8; /* Spearmint — success, live, annotations */
+
+  --color-ink:          #111111; /* All borders, body text, structure */
+  --color-ink-60:       #888888; /* Ink 60% — labels, captions, secondary text */
+  --color-ink-20:       #CCCCCC; /* Ink 20% — disabled, faint rules */
+  --color-base:         #FFFDF5; /* Cream — page background + card fills (never pure white) */
+  --color-surface:      #F5F0E0; /* Secondary surface, nav footers, ghost-hover */
+
+  /* ---- Semantic aliases ---- */
+  --bg-page:        var(--color-base);
+  --surface-card:   var(--color-base);
+  --surface-2:      var(--color-surface);
+  --surface-ink:    var(--color-ink);
+
+  --text-body:      var(--color-ink);
+  --text-muted:     var(--color-ink-60);
+  --text-on-ink:    var(--color-base);
+  --text-link:      var(--color-primary);
+
+  --accent:         var(--color-primary);
+  --success:        var(--color-accent-mnt);
+  --danger:         var(--color-accent-red);
+  --warning:        var(--color-accent-tan);
+  --highlight:      var(--color-accent-yel);
+}
